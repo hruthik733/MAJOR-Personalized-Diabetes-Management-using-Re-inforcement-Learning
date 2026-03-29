@@ -147,7 +147,7 @@ def evaluate_trainable_ensemble(args):
             else:
                 clinical_max = 2.0       # Raised from 1.0 to fix Adult Hyperglycemia
                 
-            normalized_action = (raw_action[0] + 1.0) / 2.0  # Use action[0] in test script
+            normalized_action = (action[0] + 1.0) / 2.0  # Use action[0] in test script
             
             # For adults, we remove the squaring math so they get linear, powerful boluses
             if args.cohort == 'adult':

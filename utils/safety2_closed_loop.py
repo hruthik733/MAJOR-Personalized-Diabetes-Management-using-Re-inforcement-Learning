@@ -1,4 +1,3 @@
-# utils/safety2.py
 
 import numpy as np
 
