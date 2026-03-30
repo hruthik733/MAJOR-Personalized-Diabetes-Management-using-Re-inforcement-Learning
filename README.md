@@ -232,7 +232,7 @@ States are **online-normalized** using a running mean/std (Welford's algorithm) 
 
 <img width="712" height="794" alt="image" src="https://github.com/user-attachments/assets/32f60087-b561-4f02-9667-c104bb3945a7" />
 
-
+<!--
 ```
               ┌──────────────────────────────────────┐
  4D State ───►│         EnsembleAgent                │
@@ -257,6 +257,7 @@ States are **online-normalized** using a running mean/std (Welford's algorithm) 
                                  │
                            final action
 ```
+-->
 
 **Meta-Controller Training:**
 - Loss: `meta_loss = -mean(min(Q1, Q2)(state, a_ens))`
