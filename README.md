@@ -453,7 +453,7 @@ Clinical targets are based on the **International Consensus on Time in Range** (
 |--------|---------|---------|--------------|---------|----------------|
 | **Child** | 65.99 | 18.17 | 11.83 | 15.85 | 124.72 |
 | **Adolescent** | **82.91** | 5.40 | 2.53 | 11.70 | 134.03 |
-| **Adult** | 41.93 | 6.30 | 4.05 | 51.77 | 213.37 |
+| **Adult** | 68.72 | 5.30 | 2.63 | 25.99 | 156.08 |
 
 > **Note:** The adult cohort shows elevated hyperglycemia (51.77%) despite raising `clinical_max` to 2.0 U and `max_safe_iob` to 6.0 U. Further tuning of adult dose scaling is ongoing. The adolescent cohort achieves near-target TIR (82.91%) with low hypoglycemia risk.
 
